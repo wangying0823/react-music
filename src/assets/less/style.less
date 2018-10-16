@@ -1,0 +1,130 @@
+//样式重置
+body, div, span, header, footer, nav, section, aside, article, ul,ol, dl, dt, dd, li, a, p, h1, h2, h3, h4,h5, h6, i, b,em,sub, textarea, button, input, select, figure, figcaption {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-style: normal;
+    text-decoration: none;
+    border: none;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color:transparent;
+    -webkit-font-smoothing: antialiased;
+    &:focus {
+        outline: none;
+    }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%;
+}
+h1,h2,h3{
+  font-weight: bold;
+}
+
+
+input[type="button"], input[type="submit"], input[type="search"], input[type="reset"] {
+    -webkit-appearance: none;
+}
+
+textarea {
+  resize: none;
+  overflow: auto;
+}
+table{
+  border-collapse: collapse;
+  border-spacing: 0;
+  table-layout: fixed;
+}
+body, textarea, select, input, button {
+  font-size: 12px;
+  color: #333;
+  font-family: Arial, Helvetica, sans-serif;
+  -webkit-text-size-adjust: none;
+}
+sup{
+  top:0;
+}
+html,body{
+  height: 100%;
+  width: 100%;
+  background: rgb(245,245,245);
+}
+a{
+  color:#333;
+  &:hover{
+    color: #333;
+    text-decoration: underline;
+  }
+}
+img{
+  vertical-align: middle;
+  border: none;
+}
+.n-for404 {
+  padding: 125px 0 0;
+  text-align: center;
+}
+////////////////////////////
+.ant-slider{
+  margin: 0;
+  &:hover{
+    .ant-slider-handle{
+      border-color: #c00c0c;
+    }
+    .ant-slider-track{
+      background-color: #d00c0c;
+    }
+  }
+}
+.ant-slider-handle{
+  border: solid 2px #c00c0c;
+  &:hover{
+    border-color: #c00c0c;
+  }
+}
+.ant-slider-track{
+  background-color: #c00c0c;
+}
+.ant-back-top{
+  bottom: 100px;
+}
+
+/* 公共样式 */
+@import 'common';
+@import 'common1';
+/* 404 */
+@import '404';
+/* 顶部样式 */
+@import 'header';
+/* 底部样式 */
+@import 'footer';
+/* 播放控件 */
+@import 'playbar';
+/* 登录控件 */
+@import 'loginbox';
+/* 发现音乐 */
+@import 'discover';
+/* 歌单详情页 */
+@import 'playlist';
+/* 歌曲详情页 */
+@import 'song';
+/* 节目详情页 */
+@import 'program';
+/* 电台详情页 */
+@import 'djradio';
+/* 用户 */
+@import 'user';
+/*  歌手 */
+@import 'artist';
+/* 我的音乐 */
+@import 'my';
+/* 朋友 */
+@import 'friend';
+/* 搜索 */
+@import 'search';
+/* mv */
+@import 'mv';
+/* 专辑 */
+@import 'album';
+
+
