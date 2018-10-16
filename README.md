@@ -1,3 +1,5 @@
+npm install 或 cnpm install 包依赖
+
 npm run start 启动
 
 npm run build 打包
